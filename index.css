@@ -44,7 +44,7 @@ body {
     padding-right: 43px;
 }
 .theme {
-    width: 5.425em;
+    width: 5.325em;
     height: 2.6125em;
     cursor: pointer;
     font-size: 0.8875em;
@@ -675,7 +675,7 @@ nav ul li a:hover:after {
         padding: 3px 3px;
     }
     .theme-container {
-        height: 20vh;
+        height: 27vh;
         bottom: 0;
         padding: 0px;
     }
