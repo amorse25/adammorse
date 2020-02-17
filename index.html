@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+    <title>Adam Morse</title>
+</head>
+<body>
+    <header>
+        <div class="section-main">
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#about"> About </a></li>
+                    <li><a class="nav-link" href="#projects"> Projects </a></li>
+                    <li><a class="nav-link" href="#contact"> Contact </a></li>
+                </ul>
+                <div class="theme-container">
+                    <button class='theme' id="light-button">Light Mode</button>
+                    <button class='theme' id="dark-button">Dark Mode</button>
+                    <button class='theme'id="color-button">Color Mode</button>
+                </div>
+            </nav>
+            <div class="main-title"> 
+                <h1> Adam Morse </h1> 
+                <div class="main-links">
+                    <a class="resume-link" href="resume/resume.pdf" target='_blank' rel='noopener noreferrer'> <button class="resume-button">Resume</button></a>
+                    <a href="https://github.com/amorse25" target='_blank' rel='noopener noreferrer'> <img class="contact-img" src="./imgs/github.png" alt="contact"></a>
+                    <a href="https://www.linkedin.com/in/adam-morse-4b58a4172/" target='_blank' rel='noopener noreferrer'> <img class="contact-img" src="./imgs/linkedin.png" alt="contact"></a>
+                </div>
+                <p> Software Developer with a passion to learn </p>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </header>
+    <main>
+        <div class="contain" id="about-contain"> 
+            <section id="about">
+                <h1>About Me</h1> 
+                <p> Recent college graduate from Missouri State University 
+                    with a BS in Computer Science and a minor in Cybersecurity.
+                    Currently seeking a full time position that is challenging
+                    and offers valuable experience. Strong problem solving skills
+                    with eagerness to learn new technologies, concepts, and languages. </p>
+            </section>
+        </div>
+        <div class="contain1" id="projects-contain">
+            <section id="projects">
+                <div class="project-section">
+                    <h1> Projects </h1>
+                    <div class="cards">
+                        <div class="card">
+                            
+                            <div class="card-img-container">
+                                <img alt="card" src="./imgs/ISCI.png"/>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-title"> 
+                                    Infrared Spectra Comparison Interface
+                                </p>
+                                <p class="card-role">
+                                    <strong>Role:</strong> Scrum Master | Lead Developer
+                                </p>
+                                <p class="card-desc"> 
+                                    Capstone course project built in React. Worked in a team of 6 using <strong> Agile Scrum </strong> methodology. 
+                                    Application is designed to be a comparision tool to help identify unknown compounds. User uploads
+                                    csv files containing the compounds wavelength data derived from an infrared scanner.
+                                    An unknown compound is then selected as the query to be compared against all other uploaded compounds to 
+                                    determine similarities between the unknown query and all the other known compounds.
+                                </p>
+                                <p class="card-used">
+                                    <strong> Utilizes:</strong> React, JavaScript, HTML, CSS, Plotly.js 
+                                </p>
+                            </div>
+                            
+                            <div class="project-link">
+                                <a href="https://amorse25.github.io/nlc-CAPSTONE-PROJECT-/" target='_blank' rel='noopener noreferrer'> View Project </a>
+                                <a href="https://github.com/amorse25/nlc-CAPSTONE-PROJECT-" target='_blank' rel='noopener noreferrer'> &lt/code&gt </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            
+                            <div class="card-img-container">
+                                <img alt="card" src="./imgs/GA.jpg"/>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-title"> 
+                                    Genetic Algorithm (GA)
+                                </p>
+                                <p class="card-desc"> 
+                                    Genetic Algorithm using Python. Goal was to create an efficient GA to play
+                                    the board game <i> Jump It </i>. Each cell has a given total cost of landing on that cell, and the objective
+                                    is to traverse the board while obtaining the least total sum.
+                                    Players are allowed to move to the adjacent cell, or jump that cell to move to the one directly next to it.
+                                    The GA was developed with a strong fitness function to determine the populations progress of learning,
+                                    and the Roulette Wheel Selection method for selecting members of the population for recombination. 
+                                </p>
+                                <p class="card-used">
+                                    <strong> Utilizes:</strong> Python 
+                                </p>
+                            </div>
+                            <div class="project-link">
+                                
+                                <a href="https://github.com/amorse25/GeneticAlgorithm-CSC535-" target='_blank' rel='noopener noreferrer'> &lt/code&gt </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            
+                            <div class="card-img-container">
+                                <img alt="card" src="./imgs/news.png"/>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-title"> 
+                                    News API
+                                </p>
+                                <p class="card-desc"> 
+                                    Project designed to further practice with React utilizing API calls to <i>https://newsapi.org/.</i> Projects
+                                    home page displays content based on <i> Trending Stories. </i> Navigation bar allows users to 
+                                    display trending stories based on popular categories. Clicking on any news story will take you to 
+                                    the origin of the original published article. 
+                                </p>
+                                <p class="card-used">
+                                    <strong> Utilizes:</strong> React, API calls
+                                </p>
+                            </div>
+                            <div class="project-link">
+                                <a href="https://amorse25.github.io/news/" target='_blank' rel='noopener noreferrer'> View Project </a>
+                                <a href="https://github.com/amorse25/news" target='_blank' rel='noopener noreferrer'> &lt/code&gt </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-container">
+                                <img alt="card" src="./imgs/product-page.png"/>
+                            </div>
+                            
+                            <div class="card-content">
+                                <p class="card-title"> 
+                                    Product Landing Page 
+                                </p>
+                                <p class="card-desc"> 
+                                    Project designed to practice with responsiveness. A simple product landing page 
+                                    showcasing the new generation Xbox. Utilizes @keyframes for minor image animations
+                                    and @media queries for a responsive layout. 
+                                </p>
+                                <p class="card-used">
+                                    <strong> Utilizes:</strong> HTML, CSS, Responsiveness Design
+                                </p>
+                            </div>
+                            <div class="project-link">
+                                <a href="https://amorse25.github.io/product-page/" target='_blank' rel='noopener noreferrer'> View Project </a>
+                                <a href="https://github.com/amorse25/product-page" target='_blank' rel='noopener noreferrer'> &lt/code&gt </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            
+                            <div class="card-img-container">
+                                <img alt="card" src="./imgs/resume.png"/>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-title"> 
+                                    Online-Resume Template
+                                </p>
+                                <p class="card-desc"> 
+                                    Project designed to practice with animations. The app was designed to
+                                    showcase a template for an online resume that a user could use after filling in their own 
+                                    information. Page transitions take place using Highway.js with the navigation bar, and text/graph 
+                                    animations utilize jQuery.
+                                </p>
+                                <p class="card-used">
+                                    <strong> Utilizes:</strong> HTML, Sass, Highway.js, jQuery, GSAP, Parcel
+                                </p>
+                            </div>
+                            <div class="project-link">
+                                <a href="https://amorse25.github.io/online-resume/" target='_blank' rel='noopener noreferrer'> View Project </a>
+                                <a href="https://github.com/amorse25/online-resume" target='_blank' rel='noopener noreferrer'> &lt/code&gt </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            
+                            <div class="card-img-container">
+                                <img alt="card" src="./imgs/snake.png"/>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-title"> 
+                                    Snake Game
+                                </p>
+                                <p class="card-desc"> 
+                                    Project created solely for fun and for a nostalgic experience. The goal of the snake 
+                                    game is to eat as much food as possible to increase your score. For every food ate, the 
+                                    snakes body will also increase in length. The head of the snake is the reference point for all
+                                    collision points. A collision with the wall or any other part of the snakes body will
+                                    result in losing the game. Power-ups and perks spawn at random, where the score power-up
+                                    gives the player +10 points, and the wall hack perk lasts for 10 seconds and allows the snake to collide with
+                                    walls or its body without ending the game.
+                                </p>
+                                <p class="card-used">
+                                    <strong> Utilizes:</strong> JavaScript, HTML (Canvas)
+                                </p>
+                            </div>
+                            <div class="project-link">
+                                <a href="https://amorse25.github.io/snakeGame/" target='_blank' rel='noopener noreferrer'> View Project </a>
+                                <a href="https://github.com/amorse25/snakeGame" target='_blank' rel='noopener noreferrer'> &lt/code&gt </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="contain2" id="contact-contain">
+            <section id="contact">
+                <h1>Contact Me</h1>
+                <div class="contact-links">
+                    <a href="mailto:am62596@live.missouristate.edu?subject=Hello!" target='_blank' rel='noopener noreferrer'> <img class="contact-img" src="./imgs/email.png" alt="contact"></a>
+                    <a href="https://github.com/amorse25" target='_blank' rel='noopener noreferrer'> <img class="contact-img" src="./imgs/github.png" alt="contact"></a>
+                    <a href="https://www.linkedin.com/in/adam-morse-4b58a4172/" target='_blank' rel='noopener noreferrer'> <img class="contact-img" src="./imgs/linkedin.png" alt="contact">  </a>
+                </div>
+            </section>
+        </div>
+        
+        <button id="top-button"><i class="fas fa-arrow-up"></i></button>
+        
+    </main>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
